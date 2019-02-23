@@ -1,0 +1,147 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+G:\Documents and Settings\Administrator\桌面\12.4 PID平衡（PWM）最终板\12.4 PID平衡（PWM）最终板\USER\LED.uvprojx
+Project File Date:  02/09/2019
+
+<h2>Output:</h2>
+Build target 'LED'
+compiling pwm.c...
+..\HARDWARE\PWM\pwm.c(68): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\PWM\pwm.c: 1 warning, 0 errors
+linking...
+Program Size: Code=22536 RO-data=496 RW-data=340 ZI-data=2148  
+FromELF: creating hex file...
+"..\OBJ\LED.axf" - 0 Error(s), 1 Warning(s).
+</pre>
+</body>
+</html>
+- give arg types
+  void qian();
+..\HARDWARE\TAKE\take.h(52): warning:  #1295-D: Deprecated declaration hou - give arg types
+  void hou();
+..\HARDWARE\TAKE\take.h(53): warning:  #1295-D: Deprecated declaration zuo - give arg types
+  void zuo();
+..\HARDWARE\TAKE\take.h(54): warning:  #1295-D: Deprecated declaration you - give arg types
+  void you();
+..\HARDWARE\TAKE\take.h(55): warning:  #1295-D: Deprecated declaration ting - give arg types
+  void ting();
+main.c(87): warning:  #1-D: last line of file ends without a newline
+    }
+main.c(20): warning:  #177-D: variable "DataBuffer" was declared but never referenced
+        uint8_t DataBuffer[14];
+main.c(21): warning:  #177-D: variable "Comder" was declared but never referenced
+        u8 Comder;//命令：0或者其他代表无命令。1代表前进，2代表后退，3代表左转，4代表右转，5代表旋转。
+main.c(22): warning:  #177-D: variable "INT_Q_X" was declared but never referenced
+        int INT_Q_X, OUT_PUT;
+main.c(22): warning:  #177-D: variable "OUT_PUT" was declared but never referenced
+        int INT_Q_X, OUT_PUT;
+main.c(23): warning:  #177-D: variable "len" was declared but never referenced
+        int len, t, i;
+main.c(23): warning:  #177-D: variable "t" was declared but never referenced
+        int len, t, i;
+main.c(23): warning:  #177-D: variable "i" was declared but never referenced
+        int len, t, i;
+main.c(24): warning:  #177-D: variable "OFFSET_Z" was declared but never referenced
+        float OFFSET_Z=0;
+main.c(25): warning:  #177-D: variable "Change" was declared but never referenced
+        int Change=0;
+main.c(26): warning:  #177-D: variable "StePoint" was declared but never referenced
+        int StePoint=0;
+main.c: 18 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling led.c...
+..\HARDWARE\LED\led.c(53): warning:  #1-D: last line of file ends without a newline
+   
+..\HARDWARE\LED\led.c: 1 warning, 0 errors
+compiling pwm.c...
+..\HARDWARE\PWM\pwm.c(68): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\PWM\pwm.c: 1 warning, 0 errors
+compiling Control.c...
+..\HARDWARE\IMU\imu.h(33): warning:  #1-D: last line of file ends without a newline
+                                
+..\HARDWARE\Control\Control.c(102): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\Control\Control.c(50): warning:  #177-D: variable "i" was declared but never referenced
+        int i;
+..\HARDWARE\Control\Control.c(52): warning:  #177-D: variable "Not_Blance_Flag" was declared but never referenced
+        static int Not_Blance_Flag=0;
+..\HARDWARE\Control\Control.c(14): warning:  #177-D: variable "dptr" was declared but never referenced
+  static PID *sptr = &sPID, *dptr = &dPID;
+..\HARDWARE\Control\Control.c: 5 warnings, 0 errors
+compiling MPU6050.c...
+compiling timer.c...
+..\HARDWARE\IMU\imu.h(33): warning:  #1-D: last line of file ends without a newline
+                                
+..\HARDWARE\TAKE\take.h(45): warning:  #1295-D: Deprecated declaration kongzhi - give arg types
+  void kongzhi();
+..\HARDWARE\TAKE\take.h(51): warning:  #1295-D: Deprecated declaration qian - give arg types
+  void qian();
+..\HARDWARE\TAKE\take.h(52): warning:  #1295-D: Deprecated declaration hou - give arg types
+  void hou();
+..\HARDWARE\TAKE\take.h(53): warning:  #1295-D: Deprecated declaration zuo - give arg types
+  void zuo();
+..\HARDWARE\TAKE\take.h(54): warning:  #1295-D: Deprecated declaration you - give arg types
+  void you();
+..\HARDWARE\TAKE\take.h(55): warning:  #1295-D: Deprecated declaration ting - give arg types
+  void ting();
+..\HARDWARE\TIME\timer.c(74): warning:  #177-D: variable "ms1" was declared but never referenced
+        static uint8_t ms1 = 0,ms50 = 0,ms10 = 0,ms30=0,ms100 = 0,ms20=0;                               //中断次数计数器
+..\HARDWARE\TIME\timer.c(74): warning:  #177-D: variable "ms50" was declared but never referenced
+        static uint8_t ms1 = 0,ms50 = 0,ms10 = 0,ms30=0,ms100 = 0,ms20=0;                               //中断次数计数器
+..\HARDWARE\TIME\timer.c(74): warning:  #177-D: variable "ms30" was declared but never referenced
+        static uint8_t ms1 = 0,ms50 = 0,ms10 = 0,ms30=0,ms100 = 0,ms20=0;                               //中断次数计数器
+..\HARDWARE\TIME\timer.c(74): warning:  #177-D: variable "ms100" was declared but never referenced
+        static uint8_t ms1 = 0,ms50 = 0,ms10 = 0,ms30=0,ms100 = 0,ms20=0;                               //中断次数计数器
+..\HARDWARE\TIME\timer.c(74): warning:  #177-D: variable "ms20" was declared but never referenced
+        static uint8_t ms1 = 0,ms50 = 0,ms10 = 0,ms30=0,ms100 = 0,ms20=0;                               //中断次数计数器
+..\HARDWARE\TIME\timer.c: 12 warnings, 0 errors
+compiling IMU.c...
+..\HARDWARE\IMU\imu.h(33): warning:  #1-D: last line of file ends without a newline
+                                
+..\HARDWARE\IMU\IMU.c: 1 warning, 0 errors
+compiling exti.c...
+..\HARDWARE\Exti\exti.c(68): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\Exti\exti.c: 1 warning, 0 errors
+compiling take.c...
+..\HARDWARE\IMU\imu.h(33): warning:  #1-D: last line of file ends without a newline
+                                
+..\HARDWARE\TAKE\take.h(45): warning:  #1295-D: Deprecated declaration kongzhi - give arg types
+  void kongzhi();
+..\HARDWARE\TAKE\take.h(51): warning:  #1295-D: Deprecated declaration qian - give arg types
+  void qian();
+..\HARDWARE\TAKE\take.h(52): warning:  #1295-D: Deprecated declaration hou - give arg types
+  void hou();
+..\HARDWARE\TAKE\take.h(53): warning:  #1295-D: Deprecated declaration zuo - give arg types
+  void zuo();
+..\HARDWARE\TAKE\take.h(54): warning:  #1295-D: Deprecated declaration you - give arg types
+  void you();
+..\HARDWARE\TAKE\take.h(55): warning:  #1295-D: Deprecated declaration ting - give arg types
+  void ting();
+..\HARDWARE\TAKE\take.c(92): warning:  #177-D: variable "i" was declared but never referenced
+        float i;
+..\HARDWARE\TAKE\take.c(221): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\TAKE\take.c: 9 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling misc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_exti.c...
+linking...
+Program Size: Code=22536 RO-data=496 RW-data=340 ZI-data=2148  
+FromELF: creating hex file...
+"..\OBJ\LED.axf" - 0 Error(s), 48 Warning(s).

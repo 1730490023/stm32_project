@@ -1,0 +1,15 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\DYS7\Desktop\100²½\1-2-6-·äÃùÆ÷Çý¶¯³ÌÐò\YT32B1_STM32F103_demo.uvproj
+Project File Date:  01/02/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=4952 RO-data=268 RW-data=40 ZI-data=1632  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 0 Warning(s).

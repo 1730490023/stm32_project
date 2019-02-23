@@ -1,0 +1,12 @@
+[Signum Systems SigUV3Arm.dll Settings]
+
+[Flash Programming - Target 1]
+ProgrammingOptions=0x20003            
+RAMAreaAddr=0x20000000            
+RAMAreaSize=0x800            
+FlashDevice_0=STM32F10x Med-density Flash,257,1,0x8000000,0x20000,STM32F10x_128.flm            
+
+[Emulation Parameters - Target 1]
+BypassTest=no            
+ResetCPUonStartup=yes            
+SetPCandCPSRonCPUReset=yes            

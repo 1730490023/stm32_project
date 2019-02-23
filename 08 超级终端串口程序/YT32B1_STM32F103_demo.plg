@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\DYS7\Desktop\100步\1-2-11-超级终端串口控制程序\YT32B1_STM32F103_demo.uvproj
+Project File Date:  01/09/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=12366 RO-data=782 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=12730 RO-data=938 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=12730 RO-data=938 RW-data=48 ZI-data=1832  
+FromELF: creating hex file...
+"YT32B1_STM32F103_demo.axf" - 0 Error(s), 0 Warning(s).
